@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { NgClass, NgFor } from '@angular/common';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [NgClass, NgFor],
+  imports: [CommonModule],
   template: `
     <h1>Welcome to {{ title().length == 0 ? 'Dodaj tytuł strony' : title() }}!</h1>
     <ul>
