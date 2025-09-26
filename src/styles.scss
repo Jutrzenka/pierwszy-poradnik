@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.btn-default {
+  background-color: #e0e0e0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
